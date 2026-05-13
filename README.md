@@ -47,15 +47,10 @@ This project performs a full-cycle retail analytics workflow on 9,994 US retail 
 ## 📁 Project Structure
 
 retail-sales-analysis/
-│
-├── orders.csv                          # Raw dataset (Kaggle API)
-├── retail_sales_analysis.ipynb         # Main Jupyter Notebook
-├── database_schema.sql                 # MySQL Table creation & Schema script
-│
-├── models/
-│   └── (Generated locally after running the notebook)
-│
-└── README.md
+├── database_schema.sql          # MySQL table creation & schema script
+├── orders.csv                   # Raw dataset (downloaded via Kaggle API)
+├── README.md                    # Project documentation
+└── Retail_Sales_Analysis_and_Profitability_Prediction.ipynb   # Main pipeline (Cleaning, SQL EDA, & ML)
 
 ---
 
